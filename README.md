@@ -11,7 +11,7 @@ Please see this [gist](https://gist.github.com/srph/2e2d51d46dadfdbc38e3).
 The package provides a built-in for *md5*.
 
 ```php
-require __DIR__ . '/path/to/src/SRPH/Jelai/MD5Hasher.php';
+require __DIR__ . '/path/to/src/SRPH/Jelai/Hashing/MD5Hasher.php';
 $hasher = new SRPH\Jelai\Hashing\MD5Hasher;
 $hasher->make('123'); // '202cb962ac59075b964b07152d234b70'
 $hasher->check('123', '202cb962ac59075b964b07152d234b70') // true
