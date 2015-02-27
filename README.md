@@ -88,5 +88,3 @@ Checks if the provided *value* and *hashed value* (```$hashedValue```) is equal.
 > [srph.github.io](http://srph.github.io) &nbsp;&middot;&nbsp;
 > GitHub [@srph](https://github.com/srph) &nbsp;&middot;&nbsp;
 > Twitter [@_srph](https://twitter.com/_srph)
-
-*(Above text is copied from [```rstacruz/cheatsheets/badges```](https://rstacruz.github.io/cheatsheets/badges))*
