@@ -67,8 +67,17 @@ class HashingServiceProvider extends ServiceProvider {
 
 The interface requires to have methods ```make``` and ```check```.
 
-- ```make``` (```$value```, *```array```* ```$options```)
+- ```make``` (```$value```, *```array```* ```$options```);
+
+Hash the provided value.
+
+```returns```: ```string``` (the hashed value). 
+
 - ```check``` (```$value```, ```$hashedValue```, *```array```* ```$options```)
+
+Checks if the provided *value* and *hashed value* (```$hashedValue```) is equal.
+
+```returns```: ```boolean``
 
 \* *Check the example, [MD5Hasher](https://github.com/srph/jelai.php-hashing/blob/master/src/SRPH/Jelai/Hashing/MD5Hasher.php).*
 
